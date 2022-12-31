@@ -1,3 +1,5 @@
+
+
 body  {
   background-repeat: no-repeat;
   background-image: url(Starfield.jpg);
@@ -58,27 +60,15 @@ body  {
 }
 
 
-button {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 50px;
-  background: none;
-  border: 0;
-  font-weight: bold;
-  color: #FFEC01;
-  opacity: 1;
+.button {
+
+  font-size: 200%;
+  $start-width: 14em;
+  width: $start-width;
+  margin: -4em 0 0 (- $start-width / 2);
+  text-align: center;
   cursor: pointer;
-  animation: reset  66s linear;
-  letter-spacing: 3px;
-  line-height: 1.1em;
-  padding: 6px 15px 15px;
-  outline: 0;
-  border: 4px solid #ffd54e;
-  border-radius: 15px;
-  background: transparent;
-  text-shadow: none;
-  cursor: pointer;
-  transition: box-shadow .3s ease-out,text-shadow .3s ease-out;
-}
+
+  span {
+    color: rgb(75, 213, 238);
+  }
