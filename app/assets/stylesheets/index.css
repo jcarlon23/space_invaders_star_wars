@@ -61,32 +61,31 @@ body  {
 
 
 .btn {
-  text-align: center;
+
   padding: 1.2vw 1.5vw;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
   z-index: 6;
   cursor: pointer;
-  border: rgb(233, 8, 8);
-  -webkit-box-shadow: 0 8px 13px rgba(206,165,81,.49), inset 0 -4px 1px #cea551;
-  box-shadow: 0 8px 13px rgba(206,165,81,.49), inset 0 -4px 1px #cea551;
   border-radius: 10px;
-  background-color: #fff;
-  background-image: -webkit-gradient(linear,left bottom,left top,from(#e6b453),to(#ffd266));
-  background-image: -webkit-linear-gradient(bottom,#e6b453 0%,#ffd266 100%);
-  background-image: -o-linear-gradient(bottom,#e6b453 0%,#ffd266 100%);
-  background-image: linear-gradient(to top,#e6b453 0%,#ffd266 100%);
+  border-color: #f7ff06;
+  background-color:#050505;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 20px;
+  right: 10px;
   color: #303030;
+  height: 70px;
+  width: 300px;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 40px;
+  letter-spacing: 5px;
+  font-weight: bolder;
 
 }
-.btn:hover {
-  -webkit-box-shadow: 0 8px 13px rgba(206,165,81,.49), inset 0 4px 1px #cea551;
-  box-shadow: 0 8px 13px rgba(206,165,81,.49), inset 0 4px 1px #cea551;
-}
+
+
 .btn:not(:disabled) .btn-blick {
   position: absolute;
   left: 0;
@@ -155,3 +154,12 @@ body  {
   margin-left: 80px;
 }
 }
+
+.home_video {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  color: #f7ff06;
+  height: 70px;
+  width: 300px;
+ }
