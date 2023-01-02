@@ -96,6 +96,8 @@ body  {
   height: 100%;
   border-radius: 15px;
   overflow: hidden;
+ 
+
 }
 .btn:not(:disabled) .btn-blick:after {
   content: " ";
@@ -120,7 +122,7 @@ body  {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-
+  color: transparent;
 
 }
 
@@ -165,9 +167,10 @@ body  {
   top: 20px;
   right: 10px;
   color: #f7ff06;
-  height: 75px;
+  height: 70px;
   width: 400px;
   border-radius: 10px;
+  background-color: #050505;
  }
 
  .btn:hover {
