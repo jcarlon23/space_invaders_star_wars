@@ -1,0 +1,23 @@
+ .player {
+  height: 62px;
+  width: 100px;
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, -50%);
+ 
+
+}
+body  {
+  background-repeat: no-repeat;
+  background-image: url(Starfield.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+
+
+
+
+}

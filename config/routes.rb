@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   get "/", to: "main#index"
 
-  root to: "game#main"
-  get "game", to: "main#game"
+  root to: "player#main"
+  get "player", to: "main#player"
 
 end
